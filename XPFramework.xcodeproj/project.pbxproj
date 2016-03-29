@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979BDD8FA12AAD33DB0A2A18 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FE9F0E8EDC66AEBEDFDBBF /* libPods.a */; };
+		B24E41A71C441DC30002D6E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41A61C441DC30002D6E3 /* main.m */; };
+		B24E41AA1C441DC30002D6E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41A91C441DC30002D6E3 /* AppDelegate.m */; };
+		B24E41AD1C441DC30002D6E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41AC1C441DC30002D6E3 /* ViewController.m */; };
+		B24E41B01C441DC30002D6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24E41AE1C441DC30002D6E3 /* Main.storyboard */; };
+		B24E41B21C441DC30002D6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24E41B11C441DC30002D6E3 /* Assets.xcassets */; };
+		B24E41B51C441DC30002D6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24E41B31C441DC30002D6E3 /* LaunchScreen.storyboard */; };
+		B24E41E31C441E110002D6E3 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41C71C441E110002D6E3 /* NSDate+Utils.m */; };
+		B24E41E41C441E110002D6E3 /* NSMutableArray+XPFSafeAddObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41C91C441E110002D6E3 /* NSMutableArray+XPFSafeAddObject.m */; };
+		B24E41E51C441E110002D6E3 /* NSMutableDictionary+XPFSafeSetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41CB1C441E110002D6E3 /* NSMutableDictionary+XPFSafeSetObject.m */; };
+		B24E41E61C441E110002D6E3 /* NSString+XPFString.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41CD1C441E110002D6E3 /* NSString+XPFString.m */; };
+		B24E41E71C441E110002D6E3 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41CF1C441E110002D6E3 /* UIBarButtonItem+Badge.m */; };
+		B24E41E81C441E110002D6E3 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41D11C441E110002D6E3 /* UIButton+Badge.m */; };
+		B24E41E91C441E110002D6E3 /* UIColor+XPFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41D31C441E110002D6E3 /* UIColor+XPFColor.m */; };
+		B24E41EA1C441E110002D6E3 /* UIFont+XPFFont.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41D51C441E110002D6E3 /* UIFont+XPFFont.m */; };
+		B24E41EB1C441E110002D6E3 /* UITabBar+RedDotBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41D71C441E110002D6E3 /* UITabBar+RedDotBadge.m */; };
+		B24E41EC1C441E110002D6E3 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41D91C441E110002D6E3 /* UIViewExt.m */; };
+		B24E41ED1C441E110002D6E3 /* CommonResource.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41DB1C441E110002D6E3 /* CommonResource.m */; };
+		B24E41F01C441F750002D6E3 /* XPFBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41EF1C441F750002D6E3 /* XPFBaseView.m */; };
+		B24E41F31C441F870002D6E3 /* XPFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41F21C441F870002D6E3 /* XPFBaseViewController.m */; };
+		B24E41F61C441FA30002D6E3 /* XPFBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41F51C441FA30002D6E3 /* XPFBaseTableViewCell.m */; };
+		B24E41F91C441FD50002D6E3 /* XPFBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41F81C441FD50002D6E3 /* XPFBaseCollectionViewCell.m */; };
+		B24E41FC1C441FF50002D6E3 /* XPFBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24E41FB1C441FF50002D6E3 /* XPFBaseTableViewController.m */; };
+		B24E41FE1C4420530002D6E3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24E41FD1C4420530002D6E3 /* CoreLocation.framework */; };
+		B24E42001C44205B0002D6E3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24E41FF1C44205B0002D6E3 /* AssetsLibrary.framework */; };
+		B24E42021C4420640002D6E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24E42011C4420640002D6E3 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1628EEB16938C5D81149A6F3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		27F11AD9A530CB2B88F0E5D0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		58FE9F0E8EDC66AEBEDFDBBF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24E41A21C441DC30002D6E3 /* XPFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24E41A61C441DC30002D6E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B24E41A81C441DC30002D6E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B24E41A91C441DC30002D6E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B24E41AB1C441DC30002D6E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B24E41AC1C441DC30002D6E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B24E41AF1C441DC30002D6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B24E41B11C441DC30002D6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B24E41B41C441DC30002D6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B24E41B61C441DC30002D6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24E41BD1C441E110002D6E3 /* AppConfig.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.pch; sourceTree = "<group>"; };
+		B24E41C61C441E110002D6E3 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		B24E41C71C441E110002D6E3 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		B24E41C81C441E110002D6E3 /* NSMutableArray+XPFSafeAddObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+XPFSafeAddObject.h"; sourceTree = "<group>"; };
+		B24E41C91C441E110002D6E3 /* NSMutableArray+XPFSafeAddObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+XPFSafeAddObject.m"; sourceTree = "<group>"; };
+		B24E41CA1C441E110002D6E3 /* NSMutableDictionary+XPFSafeSetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+XPFSafeSetObject.h"; sourceTree = "<group>"; };
+		B24E41CB1C441E110002D6E3 /* NSMutableDictionary+XPFSafeSetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+XPFSafeSetObject.m"; sourceTree = "<group>"; };
+		B24E41CC1C441E110002D6E3 /* NSString+XPFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XPFString.h"; sourceTree = "<group>"; };
+		B24E41CD1C441E110002D6E3 /* NSString+XPFString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XPFString.m"; sourceTree = "<group>"; };
+		B24E41CE1C441E110002D6E3 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		B24E41CF1C441E110002D6E3 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		B24E41D01C441E110002D6E3 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		B24E41D11C441E110002D6E3 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		B24E41D21C441E110002D6E3 /* UIColor+XPFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XPFColor.h"; sourceTree = "<group>"; };
+		B24E41D31C441E110002D6E3 /* UIColor+XPFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XPFColor.m"; sourceTree = "<group>"; };
+		B24E41D41C441E110002D6E3 /* UIFont+XPFFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+XPFFont.h"; sourceTree = "<group>"; };
+		B24E41D51C441E110002D6E3 /* UIFont+XPFFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+XPFFont.m"; sourceTree = "<group>"; };
+		B24E41D61C441E110002D6E3 /* UITabBar+RedDotBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+RedDotBadge.h"; sourceTree = "<group>"; };
+		B24E41D71C441E110002D6E3 /* UITabBar+RedDotBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+RedDotBadge.m"; sourceTree = "<group>"; };
+		B24E41D81C441E110002D6E3 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		B24E41D91C441E110002D6E3 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		B24E41DA1C441E110002D6E3 /* CommonResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonResource.h; sourceTree = "<group>"; };
+		B24E41DB1C441E110002D6E3 /* CommonResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonResource.m; sourceTree = "<group>"; };
+		B24E41EE1C441F750002D6E3 /* XPFBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPFBaseView.h; sourceTree = "<group>"; };
+		B24E41EF1C441F750002D6E3 /* XPFBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPFBaseView.m; sourceTree = "<group>"; };
+		B24E41F11C441F870002D6E3 /* XPFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPFBaseViewController.h; sourceTree = "<group>"; };
+		B24E41F21C441F870002D6E3 /* XPFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPFBaseViewController.m; sourceTree = "<group>"; };
+		B24E41F41C441FA30002D6E3 /* XPFBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPFBaseTableViewCell.h; sourceTree = "<group>"; };
+		B24E41F51C441FA30002D6E3 /* XPFBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPFBaseTableViewCell.m; sourceTree = "<group>"; };
+		B24E41F71C441FD50002D6E3 /* XPFBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPFBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		B24E41F81C441FD50002D6E3 /* XPFBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPFBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		B24E41FA1C441FF50002D6E3 /* XPFBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPFBaseTableViewController.h; sourceTree = "<group>"; };
+		B24E41FB1C441FF50002D6E3 /* XPFBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPFBaseTableViewController.m; sourceTree = "<group>"; };
+		B24E41FD1C4420530002D6E3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B24E41FF1C44205B0002D6E3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B24E42011C4420640002D6E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B24E419F1C441DC30002D6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24E42021C4420640002D6E3 /* AVFoundation.framework in Frameworks */,
+				B24E42001C44205B0002D6E3 /* AssetsLibrary.framework in Frameworks */,
+				B24E41FE1C4420530002D6E3 /* CoreLocation.framework in Frameworks */,
+				979BDD8FA12AAD33DB0A2A18 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2101EC11B7E17D50BC8FA850 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1628EEB16938C5D81149A6F3 /* Pods.debug.xcconfig */,
+				27F11AD9A530CB2B88F0E5D0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9E50091100F82C2F83AC69E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B24E42011C4420640002D6E3 /* AVFoundation.framework */,
+				B24E41FF1C44205B0002D6E3 /* AssetsLibrary.framework */,
+				B24E41FD1C4420530002D6E3 /* CoreLocation.framework */,
+				58FE9F0E8EDC66AEBEDFDBBF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B24E41991C441DC30002D6E3 = {
+			isa = PBXGroup;
+			children = (
+				B24E41A41C441DC30002D6E3 /* XPFramework */,
+				B24E41A31C441DC30002D6E3 /* Products */,
+				2101EC11B7E17D50BC8FA850 /* Pods */,
+				A9E50091100F82C2F83AC69E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B24E41A31C441DC30002D6E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B24E41A21C441DC30002D6E3 /* XPFramework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24E41A41C441DC30002D6E3 /* XPFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B24E41A81C441DC30002D6E3 /* AppDelegate.h */,
+				B24E41A91C441DC30002D6E3 /* AppDelegate.m */,
+				B24E41BC1C441E110002D6E3 /* Common */,
+				B24E41DD1C441E110002D6E3 /* Model */,
+				B24E41DF1C441E110002D6E3 /* View */,
+				B24E41DC1C441E110002D6E3 /* Controller */,
+				B24E41DE1C441E110002D6E3 /* ThirdPart */,
+				B24E41AB1C441DC30002D6E3 /* ViewController.h */,
+				B24E41AC1C441DC30002D6E3 /* ViewController.m */,
+				B24E41AE1C441DC30002D6E3 /* Main.storyboard */,
+				B24E41B11C441DC30002D6E3 /* Assets.xcassets */,
+				B24E41B31C441DC30002D6E3 /* LaunchScreen.storyboard */,
+				B24E41A51C441DC30002D6E3 /* Supporting Files */,
+			);
+			path = XPFramework;
+			sourceTree = "<group>";
+		};
+		B24E41A51C441DC30002D6E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B24E41B61C441DC30002D6E3 /* Info.plist */,
+				B24E41A61C441DC30002D6E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B24E41BC1C441E110002D6E3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B24E41BD1C441E110002D6E3 /* AppConfig.pch */,
+				B24E41BE1C441E110002D6E3 /* Base */,
+				B24E41C51C441E110002D6E3 /* Category */,
+				B24E41DA1C441E110002D6E3 /* CommonResource.h */,
+				B24E41DB1C441E110002D6E3 /* CommonResource.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B24E41BE1C441E110002D6E3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B24E41EE1C441F750002D6E3 /* XPFBaseView.h */,
+				B24E41EF1C441F750002D6E3 /* XPFBaseView.m */,
+				B24E41F41C441FA30002D6E3 /* XPFBaseTableViewCell.h */,
+				B24E41F51C441FA30002D6E3 /* XPFBaseTableViewCell.m */,
+				B24E41F11C441F870002D6E3 /* XPFBaseViewController.h */,
+				B24E41F21C441F870002D6E3 /* XPFBaseViewController.m */,
+				B24E41FA1C441FF50002D6E3 /* XPFBaseTableViewController.h */,
+				B24E41FB1C441FF50002D6E3 /* XPFBaseTableViewController.m */,
+				B24E41F71C441FD50002D6E3 /* XPFBaseCollectionViewCell.h */,
+				B24E41F81C441FD50002D6E3 /* XPFBaseCollectionViewCell.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B24E41C51C441E110002D6E3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B24E41C61C441E110002D6E3 /* NSDate+Utils.h */,
+				B24E41C71C441E110002D6E3 /* NSDate+Utils.m */,
+				B24E41C81C441E110002D6E3 /* NSMutableArray+XPFSafeAddObject.h */,
+				B24E41C91C441E110002D6E3 /* NSMutableArray+XPFSafeAddObject.m */,
+				B24E41CA1C441E110002D6E3 /* NSMutableDictionary+XPFSafeSetObject.h */,
+				B24E41CB1C441E110002D6E3 /* NSMutableDictionary+XPFSafeSetObject.m */,
+				B24E41CC1C441E110002D6E3 /* NSString+XPFString.h */,
+				B24E41CD1C441E110002D6E3 /* NSString+XPFString.m */,
+				B24E41CE1C441E110002D6E3 /* UIBarButtonItem+Badge.h */,
+				B24E41CF1C441E110002D6E3 /* UIBarButtonItem+Badge.m */,
+				B24E41D01C441E110002D6E3 /* UIButton+Badge.h */,
+				B24E41D11C441E110002D6E3 /* UIButton+Badge.m */,
+				B24E41D21C441E110002D6E3 /* UIColor+XPFColor.h */,
+				B24E41D31C441E110002D6E3 /* UIColor+XPFColor.m */,
+				B24E41D41C441E110002D6E3 /* UIFont+XPFFont.h */,
+				B24E41D51C441E110002D6E3 /* UIFont+XPFFont.m */,
+				B24E41D61C441E110002D6E3 /* UITabBar+RedDotBadge.h */,
+				B24E41D71C441E110002D6E3 /* UITabBar+RedDotBadge.m */,
+				B24E41D81C441E110002D6E3 /* UIViewExt.h */,
+				B24E41D91C441E110002D6E3 /* UIViewExt.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B24E41DC1C441E110002D6E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B24E41DD1C441E110002D6E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B24E41DE1C441E110002D6E3 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		B24E41DF1C441E110002D6E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24E41A11C441DC30002D6E3 /* XPFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24E41B91C441DC30002D6E3 /* Build configuration list for PBXNativeTarget "XPFramework" */;
+			buildPhases = (
+				66FD357F228A02EDF73C4FE3 /* Check Pods Manifest.lock */,
+				B24E419E1C441DC30002D6E3 /* Sources */,
+				B24E419F1C441DC30002D6E3 /* Frameworks */,
+				B24E41A01C441DC30002D6E3 /* Resources */,
+				8B35EE983EAEF1DABE907133 /* Embed Pods Frameworks */,
+				2293D36310F3989BA9359932 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPFramework;
+			productName = XPFramework;
+			productReference = B24E41A21C441DC30002D6E3 /* XPFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B24E419A1C441DC30002D6E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XPF;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = pinguo;
+				TargetAttributes = {
+					B24E41A11C441DC30002D6E3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = B24E419D1C441DC30002D6E3 /* Build configuration list for PBXProject "XPFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B24E41991C441DC30002D6E3;
+			productRefGroup = B24E41A31C441DC30002D6E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B24E41A11C441DC30002D6E3 /* XPFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B24E41A01C441DC30002D6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24E41B51C441DC30002D6E3 /* LaunchScreen.storyboard in Resources */,
+				B24E41B21C441DC30002D6E3 /* Assets.xcassets in Resources */,
+				B24E41B01C441DC30002D6E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2293D36310F3989BA9359932 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FD357F228A02EDF73C4FE3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B35EE983EAEF1DABE907133 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B24E419E1C441DC30002D6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24E41EC1C441E110002D6E3 /* UIViewExt.m in Sources */,
+				B24E41AD1C441DC30002D6E3 /* ViewController.m in Sources */,
+				B24E41F61C441FA30002D6E3 /* XPFBaseTableViewCell.m in Sources */,
+				B24E41E51C441E110002D6E3 /* NSMutableDictionary+XPFSafeSetObject.m in Sources */,
+				B24E41E31C441E110002D6E3 /* NSDate+Utils.m in Sources */,
+				B24E41E61C441E110002D6E3 /* NSString+XPFString.m in Sources */,
+				B24E41E41C441E110002D6E3 /* NSMutableArray+XPFSafeAddObject.m in Sources */,
+				B24E41AA1C441DC30002D6E3 /* AppDelegate.m in Sources */,
+				B24E41E81C441E110002D6E3 /* UIButton+Badge.m in Sources */,
+				B24E41F01C441F750002D6E3 /* XPFBaseView.m in Sources */,
+				B24E41EA1C441E110002D6E3 /* UIFont+XPFFont.m in Sources */,
+				B24E41F31C441F870002D6E3 /* XPFBaseViewController.m in Sources */,
+				B24E41F91C441FD50002D6E3 /* XPFBaseCollectionViewCell.m in Sources */,
+				B24E41FC1C441FF50002D6E3 /* XPFBaseTableViewController.m in Sources */,
+				B24E41E71C441E110002D6E3 /* UIBarButtonItem+Badge.m in Sources */,
+				B24E41ED1C441E110002D6E3 /* CommonResource.m in Sources */,
+				B24E41A71C441DC30002D6E3 /* main.m in Sources */,
+				B24E41EB1C441E110002D6E3 /* UITabBar+RedDotBadge.m in Sources */,
+				B24E41E91C441E110002D6E3 /* UIColor+XPFColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B24E41AE1C441DC30002D6E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24E41AF1C441DC30002D6E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B24E41B31C441DC30002D6E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24E41B41C441DC30002D6E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B24E41B71C441DC30002D6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B24E41B81C441DC30002D6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B24E41BA1C441DC30002D6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1628EEB16938C5D81149A6F3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ./XPFramework/Common/AppConfig.pch;
+				INFOPLIST_FILE = XPFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinguo.XPFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B24E41BB1C441DC30002D6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F11AD9A530CB2B88F0E5D0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ./XPFramework/Common/AppConfig.pch;
+				INFOPLIST_FILE = XPFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinguo.XPFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B24E419D1C441DC30002D6E3 /* Build configuration list for PBXProject "XPFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24E41B71C441DC30002D6E3 /* Debug */,
+				B24E41B81C441DC30002D6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24E41B91C441DC30002D6E3 /* Build configuration list for PBXNativeTarget "XPFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24E41BA1C441DC30002D6E3 /* Debug */,
+				B24E41BB1C441DC30002D6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B24E419A1C441DC30002D6E3 /* Project object */;
+}

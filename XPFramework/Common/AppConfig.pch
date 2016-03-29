@@ -1,0 +1,65 @@
+//
+//  AppConfig.pch
+//  XPFramework
+//
+//  Created by xiaopin on 16/1/12.
+//  Copyright © 2016年 pinguo. All rights reserved.
+//
+
+#ifndef XPF_AppConfig_pch
+#define XPF_AppConfig_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "NSString+XPFString.h"
+#import "UIColor+XPFColor.h"
+#import "UIFont+XPFFont.h"
+#import "NSMutableArray+XPFSafeAddObject.h"
+#import "NSMutableDictionary+XPFSafeSetObject.h"
+#import "UIViewExt.h"
+#import "UIImageView+WebCache.h"
+#import "CommonResource.h"
+
+#define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
+
+//屏幕宽高
+#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+//各种设备的分辨率
+#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)]?CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size):NO)
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)]?CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size):NO)
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)]?CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size):NO)
+#define iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)]?CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size):NO)
+#define is768x1024 ([UIScreen instancesRespondToSelector:@selector(currentMode)]?CGSizeEqualToSize(CGSizeMake(768, 1024), [[UIScreen mainScreen] currentMode].size):NO)
+#define is1536x2048 ([UIScreen instancesRespondToSelector:@selector(currentMode)]?CGSizeEqualToSize(CGSizeMake(1536, 2048), [[UIScreen mainScreen] currentMode].size):NO)
+
+//各种系统版本
+#define IOS9Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
+#define IOS8Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IOS7Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define IOS6Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
+
+//返回Block统一格式
+typedef void(^SucceedHandleBlock) (NSString *msg, id responseObject);
+typedef void(^FailedHandleBlock) (NSString *msg, NSInteger errorCode);
+
+//在keychain中保存device uuid
+#define kServiceKey @"com.pinguo.homeSchoolNew"
+#define kAccountKey @"com.pinguo.homeSchool.identifier"
+
+//从设置文件里读取当前版本号
+#define AppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+//App提示信息
+#define kXPFLocationFailed @"当前定位服务未开启或没有授权!"
+#define kXPFNetworkRequestFailure @"网络请求失败！"
+#define kXPFLoading @"正在拼命加载中..."
+#define kXPFLoaded @"加载完成"
+#define kXPFLoadFailure @"加载失败"
+#define kXPFOperFailure @"操作失败"
+#define kXPFShareSuccess @"分享成功"
+#define kXPFShareFailure @"分享失败"
+
+#endif
